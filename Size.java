@@ -16,6 +16,7 @@ public enum Size
     private final int maxValue;
     private final char code;
     
+    ///Método Contrutor
     private Size(int minValue,int maxValue,String description,char code){
         this.description=description;
         this.minValue=minValue;
